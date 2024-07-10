@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    
+    <title>Favourites_Coins</title>
+  </head>
+  <body>
+    <nav>
+      <div class="left-nav">
+        <a href="../index.html" class="title">Crypto Tarcker</a>
+      </div>
+      <div class="right-nav">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="./favourites.html" class="nav-link">Favourites</a>
+         
+      </div>
+    </nav >
+    <main>
+        <h1>Favourite coins</h1>
+      <table id="crypto-table">
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Icon</th>
+            <th>Name</th>
+            <th>
+              Price
+              
+            </th>
+            <th>
+              Volume
+              
+            </th>
+            <th>Market Cap</th>
+          </tr>
+        </thead>
+        <tbody id="crypto-table-body"></tbody>
+      </table>
+     
+      <div class="shimmer-container">
+        <div class="shimmer"></div>
+      </div>
+      <p id="no-favourites" style="display: none">There are no liked coins</p>
+    </main>
+    <script src="favourites.js"></script>
+  </body>
+</html>
