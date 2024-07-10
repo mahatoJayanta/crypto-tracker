@@ -1,2 +1,3 @@
 #Hosted Link
-crypto-tracker01.netlify.app
+
+http://crypto-tracker01.netlify.app
